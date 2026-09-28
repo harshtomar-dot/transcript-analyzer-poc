@@ -1,0 +1,73 @@
+{
+  "call_id": "957378c3-8787-41b3-8557-264882310764",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Md Aman?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Md Aman, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "अभी second year चल रहा है अभी तक admission नहीं कर रहा हूं"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या आप इस साल B Tech admission के लिए interested हैं या अभी planning नहीं कर रहे?"
+    },
+    {
+      "speaker": "user",
+      "text": "वह computer जाने के बाद"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है, Md Aman। जब आप admission के लिए ready हों, तो मैं आपकी मदद के लिए उपलब्ध रहूँगी। क्या आप इस समय कुछ और जानना चाहेंगे Woxsen University के बारे में?"
+    },
+    {
+      "speaker": "user",
+      "text": "के लिए"
+    },
+    {
+      "speaker": "agent",
+      "text": "क्या आप Woxsen University के B Tech programs या admission process के बारे में कुछ specific जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University में B Tech के programs चार साल के होते हैं, जिनमें Computer Science Engineering, AI & Machine Learning, Data Science, Blockchain, IoT & Cybersecurity, और Electronics & Communication Engineering शामिल हैं। ये programs practical projects, internships और global exposure पर focus करते हैं। क्या आप जानना चाहेंगे कि admission process कैसा है?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "बोलिए"
+    },
+    {
+      "speaker": "user",
+      "text": "admission का process"
+    },
+    {
+      "speaker": "agent",
+      "text": "Admission process पूरी तरह online होता है। आपको official website पर जाकर application form भरना होता है, फिर entrance exam या accepted exam scores submit करने होते हैं, और आख़िर में personal interview होता है। Woxsen अपना entrance test W JEET भी conduct करता है। क्या आप और कुछ जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां बस इतना ही"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपसे बात करके अच्छा लगा। Deadline से पहले apply करना मत भूलिएगा। आपका दिन शानदार हो! All the best. Goodbye."
+    }
+  ]
+}

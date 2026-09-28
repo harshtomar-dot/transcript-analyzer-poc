@@ -1,0 +1,189 @@
+{
+  "call_id": "f0230119-fc84-4900-887e-afdba49e7db9",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Junaid Hasrat?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes sir speaking your reliance asset"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, Junaid Hasrat. I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah you can"
+    },
+    {
+      "speaker": "agent",
+      "text": "Junaid Hasrat, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah yeah yeah of course"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to"
+    },
+    {
+      "speaker": "user",
+      "text": "i'm ready to move"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "e c a"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, did you mean E C E, Electronics and Communication Engineering?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. मैं थोड़ा और better समझना चाहती हूँ, आपकी Class 11 percentage कितनी आई थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "eighty nine percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "eighty nine percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, हम V I T triple E, state common entrance test, C U E T scores भी accept करते हैं। साथ ही हमारा अपना entrance test भी है, Woxsen Joint Engineering Entrance Test, यानी W JEET। और सबसे अच्छी बात यह है कि अगर आपने एक से ज़्यादा exams attempt किए हैं, तो हम आपके best two scores consider करते हैं, जो आपके लिए advantage होगा। तो क्या आप हमारा entrance exam, W JEET, भी attempt करना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं क्यों already i have appeared"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या मैं आपको Woxsen University और उसके residential campus के बारे में हमारा brochure भेज दूँ ताकि आप और जानकारी ले सकें?"
+    },
+    {
+      "speaker": "user",
+      "text": "exactly भेज दीजिए"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Let me share a brief about Woxsen University and the B Tech program. Woxsen offers a fully residential, four-year B Tech program with streams like Electronics and Communication Engineering. The campus is spread over 200 acres with advanced labs, sports facilities, and global exchange programs with 175 plus partner universities in over 53 countries. The program focuses on practical learning, projects, and internships to prepare you for industry roles. Would you like to know about the fee structure or scholarships available?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes of course detail me"
+    },
+    {
+      "speaker": "agent",
+      "text": "The total fees for the four-year B Tech program at Woxsen University is Rupees Twenty Eight Lacks Eighty Five Thousand. This includes Academic fees of Rupees Sixteen Lacks Twenty Five Thousand and Food and Hostel Fees of Rupees Twelve Lacks Sixty Thousand. So, the average per year fees is Rupees Seven Lacks Twenty One Thousand. Based on your profile, you may also be eligible for up to fifty percent merit scholarship on tuition fees. Would you like to know about the admission process next?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "The admission process at Woxsen University for B Tech includes filling an online application, submitting entrance test scores like W JEET, JEE Main, V I T triple E, State Common Entrance Test, or C U E T, followed by a personal interview. The entire application process is online, and you do not need to visit the campus for admissions. Would you like to know about the campus facilities or placement details?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University campus is a fully integrated residential ecosystem spread over 200 acres. It includes advanced labs like AI Lab, Robotics Lab, Analytics Lab, and a Bloomberg Finance Lab. There is one of India's largest academic libraries and smart classrooms. For sports, there is a 60-acre sports academy with facilities for football, cricket, basketball, and more, along with international coaches. Would you like to hear about the placement highlights next?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah of course you can"
+    },
+    {
+      "speaker": "agent",
+      "text": "For the placements in twenty twenty six, the highest package offered was Eighteen LPA. The overall average package stands at Nine Point Two LPA, and the top twenty percent average is Twelve Point Two LPA. Top recruiters include Tech Mahindra, JTP Japan, KPMG, Virtusa, Centific, and ARIQT International. Roles offered include Software Engineer, AI and ML Trainee Engineer, Data Scientist, Automation and AI Specialist, SQL Developer, Digital Program Manager, Gen AI Trainee, and Automation Engineer. Would you like to know anything else about Woxsen University?"
+    },
+    {
+      "speaker": "user",
+      "text": "no actually but roi is very poor"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern about the return on investment. If you have any specific questions or need detailed information about career support or scholarships that might help, a senior counsellor can assist you further. Meanwhile, is there anything else related to Woxsen University admissions that I can help you with?"
+    },
+    {
+      "speaker": "user",
+      "text": "no no no it's ok but i"
+    },
+    {
+      "speaker": "user",
+      "text": "i'm very concerned about the roi because the payment you are asking the for the entire course fee is almost twenty lakh twenty six lakhs more than twenty six lakh"
+    },
+    {
+      "speaker": "user",
+      "text": "certainly and roi is not very much high as much as the fees paid by a student isn't it are you getting my point"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your point about the fees and return on investment. The total fees for the B Tech program are Rupees Twenty Eight Lacks Eighty Five Thousand, which inc"
+    },
+    {
+      "speaker": "user",
+      "text": "oh my god"
+    },
+    {
+      "speaker": "user",
+      "text": "twenty eight lakh"
+    },
+    {
+      "speaker": "user",
+      "text": "and the highest package is less than that"
+    },
+    {
+      "speaker": "user",
+      "text": "think over it"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern regarding the fee and the highest package offered. The program also provides opportunities for up to fifty percent merit scholarships which can significantly reduce the tuition fee. If you would like, a senior counsellor can discuss scholarship options and career support in detail to help you make an informed decision. Would you like me to arrange a call for you?"
+    },
+    {
+      "speaker": "user",
+      "text": "ok ok ok ok you can"
+    },
+    {
+      "speaker": "agent",
+      "text": "Got it, so I will arrange for a senior counsellor to call you soon to discuss scholarships and career support in detail. Thank you for your time today. Have a fantastic day ahead!"
+    },
+    {
+      "speaker": "user",
+      "text": "same to you"
+    },
+    {
+      "speaker": "agent",
+      "text": "It was a pleasure speaking with you. Don't forget to apply before the deadline. Have a fantastic day ahead! All the best. Goodbye."
+    }
+  ]
+}

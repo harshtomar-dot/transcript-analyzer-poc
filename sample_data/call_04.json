@@ -1,0 +1,45 @@
+{
+  "call_id": "9a58adf4-a0a8-44c5-9420-dcb9099e61db",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Bhavani?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "है ना"
+    },
+    {
+      "speaker": "agent",
+      "text": "मैं Woxsen University से B Tech admissions में आपकी help के लिए call कर रही हूँ। क्या मैं आपसे दो मिनट बात कर सकती हूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bhavani, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen edu dot in All the best."
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen edu dot in. All the best. Goodbye."
+    }
+  ]
+}

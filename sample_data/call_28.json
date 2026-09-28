@@ -1,0 +1,85 @@
+{
+  "call_id": "9d196ca2-d4dd-4de3-b398-75852c7df13f",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Rajdeep?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am वह उसका admission हो चुका है bit मिश्रा में"
+    },
+    {
+      "speaker": "agent",
+      "text": "क्या मैं समझूं कि आप राजदीप के माता- पिता हैं और उनका"
+    },
+    {
+      "speaker": "user",
+      "text": "हां मैं mom बोल रही"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am उसकी mommy बोल रही हूं"
+    },
+    {
+      "speaker": "agent",
+      "text": "धन्यवाद, मैडम। क्या राजदीप इस साल"
+    },
+    {
+      "speaker": "user",
+      "text": "ठीक है ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "राजदीप, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं admission हो चुका है ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या आप चाहेंगी कि मैं आपको Woxsen University के बारे में कोई जानकारी भेज दूँ या फिर आप किसी और तरह से मदद चाहती हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "अभी मैं busy हूं ma'am थोड़ा सा बाद में मैं बात करती हूं ठीक है थोड़ा सा busy हूं"
+    },
+    {
+      "speaker": "agent",
+      "text": "कोई बात नहीं। मैं WhatsApp पर details भेज सकती हूँ, या अ"
+    },
+    {
+      "speaker": "user",
+      "text": "ठीक है हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "क्या आप"
+    },
+    {
+      "speaker": "user",
+      "text": "आप details भेज दीजिए"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है, मैं"
+    },
+    {
+      "speaker": "user",
+      "text": "मैं वह देख लूंगी फिर"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है, मैडम। अगर बाद में कोई सवाल हो तो आप हमें संपर्क कर सकती हैं। धन्यवाद, आपका दिन अच्छा हो। Goodbye."
+    }
+  ]
+}

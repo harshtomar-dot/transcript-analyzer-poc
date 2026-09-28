@@ -1,0 +1,117 @@
+{
+  "call_id": "c8be1314-c0ed-4116-ac88-29a087c946be",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Supraja?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello yeah hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "sir"
+    },
+    {
+      "speaker": "user",
+      "text": "i knew like i am already pursuing btech in"
+    },
+    {
+      "speaker": "agent",
+      "text": "May I know if you are currently pursuing B Tech or are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "no i'm ninety person"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, are you saying you have completed your B Tech with ninety percent or are you referring to something else?"
+    },
+    {
+      "speaker": "user",
+      "text": "no like i have not completed my i am currently in the second year"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing that. Since you are currently in the second year of your B Tech, may I know which stream or branch you are studying in?"
+    },
+    {
+      "speaker": "user",
+      "text": "artificial intelligence and data science"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing. Could you please tell me your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "class eleventh eighty"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. What's your expected twelfth grade percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "twelve i have already completed eighty four"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "next job"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted."
+    },
+    {
+      "speaker": "user",
+      "text": "no i am not"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, we accept a range of scores including V I T triple E, State Common Entrance Test, and C U E T. We also conduct our own entrance test, the Woxsen Joint Engineering Entrance Test, or W JEET. And the great part is if you've appeared for more than one entrance exam, we take your two best scores into consideration which will work in your favor. So would you be interested in appearing for our entrance exam W JEET as well?"
+    },
+    {
+      "speaker": "user",
+      "text": "no like currently i'm not interested"
+    },
+    {
+      "speaker": "agent",
+      "text": "Understood. Would you like me to send you our brochure to know more about Woxsen University and its residential campus?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah share me"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have noted your interest in receiving the brochure. To give you a brief, Woxsen University offers specialized B Tech programs in emerging technology domains like Computer Science Engineer"
+    },
+    {
+      "speaker": "user",
+      "text": "next topic ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure. Woxsen"
+    },
+    {
+      "speaker": "user",
+      "text": "bye bye ok ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "It was a pleasure speaking with you. Please fill your application before the Round Deadline since limited seats are left. Have a fantastic day ahead! All the best. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "call_id": "406b1a39-8ca6-47a3-83b1-4bc41cb9cf32",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Merugu Navya?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, Merugu Navya, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am i'm currently studying in विगना moment college at"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand you are currently studying at विगना moment college. Thank you for letting me know. If you are not planning for B Tech admissions this year, I will note that. If you would like to explore the program further in the future, please feel free to visit www dot woxsen dot edu dot in. Thank you for your time today. Goodbye."
+    },
+    {
+      "speaker": "user",
+      "text": "ok ma'am"
+    }
+  ]
+}

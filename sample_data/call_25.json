@@ -1,0 +1,157 @@
+{
+  "call_id": "0c82d8a7-41f7-45f4-a8df-a8bb707bc43e",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Rohith Sundar. S?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Rohith Sundar. S, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear. B Tech programs offered at Woxsen are CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity, We also have B Tech in ECE Electronics and Communications Engineering. Which stream are you interested in?"
+    },
+    {
+      "speaker": "user",
+      "text": "and it's"
+    },
+    {
+      "speaker": "user",
+      "text": "and cse computer engineering"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted, you are interested in CSE Computer Engineering. I'd just like to understand a bit more. What was your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "class eleven percentage eighty two percentage"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. What's your expected twelfth grade percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "ninety five percentage"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "no"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, we accept a range of scores including V I T triple E, state common entrance test and C U E"
+    },
+    {
+      "speaker": "user",
+      "text": "not in distance"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Just so you know, we accept scores from V I T triple E, State Common Entrance Test, C U E T, and also conduct our own entrance test called W JEET. If you have appeared for more than one exam, we consider your two best scores, which can be advantageous. So, would you be interested in appearing for our entrance exam W JEET as well?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i'm interested in writing your exam"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Would you like me to send you our brochure to know more about Woxsen University and its residential campus?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah please"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University offers a four- year B Tech program with specializations in Computer Science Engineering, AI & Machine Learning, Data Science, Blockchain, IoT & Cybersecurity, and Electronics & Communication Engineering. The campus is a fully residential 200- acre ecosystem with advanced labs like AI, Robotics, and Analytics, plus a large library and sports facilities. The total fee for the program is Rupees Twenty Eight Lack"
+    },
+    {
+      "speaker": "user",
+      "text": "for four years"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, the total fee for the four- year B Tech program at Woxsen University is Rupees"
+    },
+    {
+      "speaker": "user",
+      "text": "ok ok ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "The total fee for the four-year B Tech program is Rupees Twenty Eight Lacks Eighty Five Thousand. This includes Academic fees of Rupees Sixteen Lacks Twenty Five Thousand and Food and Hostel Fees of Rupees Twelve Lacks Sixty Thousand. Based on your profile, you may also be eligible for up to fifty percent merit scholarship on tuition fees. Would you like to know about the admission process next?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i would like to know when is your entrance exams are starting"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET entrance exam is conducted online and you can apply anytime as admissions are currently open. The exam duration is one hour ten minutes with one hundred MCQs covering logical reasoning, numerical ability, physics, chemistr"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am ok when is your enrollment is starting"
+    },
+    {
+      "speaker": "agent",
+      "text": "The academic"
+    },
+    {
+      "speaker": "user",
+      "text": "जी date ma'am can you hear me"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, I can hear you. The academic session usually begins mid year. Exact dates are shared after admission confirmation. Would you like to know about the application process?"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am yes ma'am but i would like to know entrance exams are starting"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET entrance exam is conducted online and you can register anytime as admissions are open now. There is no fixed start date since you can apply and take the test at your convenience before the admission deadline. Would you like t"
+    },
+    {
+      "speaker": "user",
+      "text": "if we if we want we can write in this instantly"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, you can register and take the W JEET entrance exam online at your convenience be"
+    },
+    {
+      "speaker": "user",
+      "text": "ok ma'am ok ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "It was a pleasure speaking with you. Please fill your application before the Round Deadline since limited seats are left. Have a fantastic day ahead! All the best."
+    },
+    {
+      "speaker": "user",
+      "text": "thank you thank you"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye!"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "call_id": "728beb0d-cac2-48bf-bcec-02ed70fd674d",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Hasrat Ejazi?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah speaking"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes i can"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hasrat Ejazi, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes this year"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear. B Tech programs offered at Woxsen are CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity, We also have B Tech in ECE Electronics and Communications Engineering. Which stream are you interested in?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Could you please specify which stream you are interested in among CSE"
+    },
+    {
+      "speaker": "user",
+      "text": "btech btech btech"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand you are interested in B Tech. Among the streams at Woxsen University, we offer Computer Science Engineering (CSE), C"
+    },
+    {
+      "speaker": "user",
+      "text": "computer science engineering yes that is cse only cse"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for confirming your interest in Computer Science Engineering, CSE. May I know your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "class twelve percentage was eighty nine"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing your twelfth percentage as eighty nine. Could you please tell me your Class 11 percentage as well?"
+    },
+    {
+      "speaker": "user",
+      "text": "almost eighty nine"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that your Class 11 percentage is almost eighty nine. Have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, we accept a range of scores including V I T triple E, State Common Entrance Test and C U E T. We also conduct our own entrance test, the Woxsen Joint Engineering Entrance Test, or W JEET. And the great part is if you've appeared for more than one entrance exam, we take your two best scores into consideration which will work in your favor. So would you be interested in appearing for our entrance exam W JEET as well?"
+    },
+    {
+      "speaker": "user",
+      "text": "no since i have already completed my"
+    },
+    {
+      "speaker": "user",
+      "text": "jee mains examination in twenty twenty six"
+    },
+    {
+      "speaker": "user",
+      "text": "and i have secured ninety six point six two percentile ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Understood, since you have already completed JEE Mains in twenty twenty six with a ninety six point six two percentile, you may not need to appear for W JEET. Would you like me to send you our brochure to know more about Woxsen University"
+    },
+    {
+      "speaker": "user",
+      "text": "of course of course of course you can"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I will arrange to send you the brochure so you can learn more about Woxsen University and its residential campus. To give you a brief overview, Woxsen University offers a four-year B Tech program with specializations including Computer Science Engineering. The curriculum is industry-aligned, focusing on practical learning through projects, labs, and internships. The campus is a fully residential 200-acre ecosystem with advanced labs, sports facilities, and global exchange opportunities with partner universities in over fifty-three countries. Would you like to know about the fee structure or scholarships available?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes of course"
+    },
+    {
+      "speaker": "agent",
+      "text": "The total fee for the four-year B Tech program at Woxsen University is Rupees Twenty Eight Lacks Eighty Five Thousand. This includes Academic fees of Rupees Sixteen Lacks Twenty Five Thousand and Food and Hostel Fees of Rupees Twelve Lacks Sixty Thousand. So, the average per year fee is Rupees Seven Lacks Twenty One Thousand. Based on your profile, you may also be eligible for up to fifty percent merit scholarship on the tuition fee. Would you like to know about the admission process next?"
+    },
+    {
+      "speaker": "user",
+      "text": "no"
+    },
+    {
+      "speaker": "agent",
+      "text": "It was a pleasure speaking with you. Please fill your application before the Round Deadline since limited seats are left. Have a fantastic day ahead! All the best."
+    },
+    {
+      "speaker": "user",
+      "text": "ok good day"
+    }
+  ]
+}

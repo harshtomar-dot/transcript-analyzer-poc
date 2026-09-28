@@ -1,0 +1,113 @@
+{
+  "call_id": "d0f0d239-06c6-4452-a95f-90398b1e5a84",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Vikash Kumar?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Vikash Kumar, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी जी"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "अच्छा"
+    },
+    {
+      "speaker": "agent",
+      "text": "Could you please tell me which stream you are interested in among these options? For example, CSE, AI and ML, Data Science, Blockchain, or ECE? If you are not sure, you can also say that."
+    },
+    {
+      "speaker": "user",
+      "text": "laptop का है"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand you mentioned \"laptop,\" but to help you better, could you please tell me which B Tech stream you are interested in? For example, Computer Science Engineering, AI and Machine Learning, Data Science, Blockchain, or Elect"
+    },
+    {
+      "speaker": "user",
+      "text": "laptop का"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can only speak in English and Hindi. Could you please tell me which B Tech str"
+    },
+    {
+      "speaker": "user",
+      "text": "कह रहे हैं laptop कब तक मिलेगा laptop"
+    },
+    {
+      "speaker": "agent",
+      "text": "Regarding the laptop, Woxsen University provides a strong academic and residential experience, but laptops are not included as part of the admission or program package. If you want, I can shar"
+    },
+    {
+      "speaker": "user",
+      "text": "कब तक मिलेगा कब तक में"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have taken down your"
+    },
+    {
+      "speaker": "user",
+      "text": "laptop कब तक मिलेगा"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your question about the laptop, but Woxsen University does not provide laptops as part of the admission or program package. If you have any other questions about the B Tech program or admissions, I am here to help."
+    },
+    {
+      "speaker": "user",
+      "text": "इतना ही लिखना चाह रहा हूं थोड़ा रुको"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure, take your time. Let me know when you are ready to continue."
+    },
+    {
+      "speaker": "user",
+      "text": "बता रहा हूं laptop कब तक मिलेगा"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please go ahead and tell me your question or concern about the laptop. I'm here to listen."
+    },
+    {
+      "speaker": "user",
+      "text": "अच्छा"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing. To understand your academic background better, could you please tell me your Class 11 percentage?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    }
+  ]
+}

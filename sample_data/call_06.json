@@ -1,0 +1,49 @@
+{
+  "call_id": "d372e096-52e0-42fb-8511-c01b42ad9a6f",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Girraj Saradna?"
+    },
+    {
+      "speaker": "user",
+      "text": "तीन"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can only speak in English and Hindi. Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी"
+    },
+    {
+      "speaker": "agent",
+      "text": "Girraj Saradna, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं नहीं अभी वह मेरे friend ने किया था"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for letting me know. Just to confirm, are you the parent or guardian of the student who showed interest in Woxsen University?"
+    },
+    {
+      "speaker": "user",
+      "text": "पता नहीं madam पता नहीं है मेरे friend ने किया था कोई forum वोरम के लिए"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Since you are not the student or parent, it would be best if the actual student or parent connects with us for detailed guidance. If you like, I can share the Woxsen University website link where the student o"
+    },
+    {
+      "speaker": "user",
+      "text": "the person you are speaking with has put your call on hold please stay on the line"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for your time. Have a great day. Goodbye."
+    }
+  ]
+}

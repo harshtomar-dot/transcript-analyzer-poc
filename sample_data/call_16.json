@@ -1,0 +1,49 @@
+{
+  "call_id": "5a2f40df-edb5-4c0d-8499-8fd81e1c534a",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Supriya Phukan?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Supriya Phukan, मैं Woxsen University से B Tech admissions में आपकी help के लिए call कर रही हूँ। क्या मैं आपसे दो मिनट बात कर सकती हूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "रुकिए"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can only speak in English and Hindi. Please let me know when you are ready to continue."
+    },
+    {
+      "speaker": "user",
+      "text": "बोलिए कौन hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Supriya Phukan, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "अभी तक तो नहीं किया"
+    },
+    {
+      "speaker": "user",
+      "text": "मैं सोचा था"
+    },
+    {
+      "speaker": "agent",
+      "text": "Understood. Since you are not currently planning for B Tech admissions this year, I will note that. If you have any questions or need information later, please feel free to reach out. Thank you for your time today."
+    },
+    {
+      "speaker": "user",
+      "text": "welcome"
+    }
+  ]
+}

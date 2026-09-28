@@ -1,0 +1,73 @@
+{
+  "call_id": "3eb9e5c1-d507-4d99-920c-ccb247b68951",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Siddharth Biju?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Siddharth Biju, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CS"
+    },
+    {
+      "speaker": "user",
+      "text": "actually i don't know हिंदी"
+    },
+    {
+      "speaker": "agent",
+      "text": "No problem, I will continue in English. At Woxsen, we offer B Tech programs like CSE, CSE in Data Science, CSE in AI and ML, CSE in Blockchain, IoT & Cybersecurity, and also B Tech in Electronics and Communication Engineering (ECE)."
+    },
+    {
+      "speaker": "user",
+      "text": "this is six month course"
+    },
+    {
+      "speaker": "agent",
+      "text": "The B Tech programs at Woxsen University are structured as four-year programs, not six months. Would you like to know more about the curriculum or any other details?"
+    },
+    {
+      "speaker": "user",
+      "text": "no no"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, may I know your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "sorry"
+    },
+    {
+      "speaker": "agent",
+      "text": "No problem. If you have any questions or need assistance later, feel free to reach out. Have a great day!"
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye, have a great day!"
+    }
+  ]
+}

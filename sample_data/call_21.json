@@ -1,0 +1,117 @@
+{
+  "call_id": "df0300d7-5b00-431a-a1d1-8dff388d01ae",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Prathamesh Phuge?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Prathamesh Phuge, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं miss i am in twelfth but मुझे यह email आया था इसलिए मैं ज़रा research कर रहा था"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand, Prathamesh. Since you are currently in twelfth grade and exploring options, may I ask which stream you are interested in for your B Tech—like CSE, AI & ML, Data Science, Blockchain, IoT & Cybersecurity, or ECE? Or are you still undecided?"
+    },
+    {
+      "speaker": "user",
+      "text": "i think he is showing in ai or data"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing. So, Prathamesh, are you interested in AI & Machine Learning or Data Science stream for your B Tech?"
+    },
+    {
+      "speaker": "user",
+      "text": "in both also"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted, Prathamesh. Could you please tell me your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "i think something"
+    },
+    {
+      "speaker": "user",
+      "text": "eighty or eighty five percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Just to confirm, was your Class 11 percentage around eighty to eighty five percent?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "around eighty approx"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, we accept a range of scores including V I T triple E, State Common Entrance Test and C U E T. We also conduct our own entrance test, the Woxsen Joint Engineering Entrance Test, or W JEET. And the great part is if you've appeared for more than one entrance exam, we take your two best scores into consideration which will work in your favor. So would you be interested in appearing for our entrance exam W JEET as well?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah but there is ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Got it. Would you like me to send you our brochure to know more about Woxsen University and its residential campus?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes sure"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University offers a four-year B Tech program with specializations in Computer Science Engineering, AI & Machine Learning, Data Science, Blockchain, IoT & Cybersecurity, and Electronics & Communication Engineering. The campus is a fully residential 200-acre ecosystem with advanced labs like AI Lab, Robotics Lab, and one of India's largest libraries. The program emphasizes practical learning, projects, internships, and global exposure through partner universities in over fifty-three countries. Would you like to know about the fee structure or scholarship opportunities?"
+    },
+    {
+      "speaker": "user",
+      "text": "not in not now but after some"
+    },
+    {
+      "speaker": "agent",
+      "text": "Understood. If you have any questions later, a senior counsellor will be happy to assist you. It was a pleasure speaking with you. Please fill your application before the Round Deadline since limited seats are left. Have a fantastic day ahead! All the best."
+    },
+    {
+      "speaker": "user",
+      "text": "thank you"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye!"
+    }
+  ]
+}

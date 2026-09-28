@@ -1,0 +1,65 @@
+{
+  "call_id": "69e1916f-5eb8-43dd-ae90-99673d15232d",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Sita?"
+    },
+    {
+      "speaker": "user",
+      "text": "madam"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "madam admission date"
+    },
+    {
+      "speaker": "agent",
+      "text": "The academic session usually begins mid year. Exact dates are shared after admission confirmation. Would you like to know about the admission process or eligibility criteria?"
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sita, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां it's"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "madam"
+    },
+    {
+      "speaker": "agent",
+      "text": "If you are not sure or want to explore all options, you can say \"undecided.\" Otherwise, please let me know which stream interests you among CSE, AI and ML, Data Science, Blockchain, IoT & Cybersecurity, or ECE."
+    },
+    {
+      "speaker": "user",
+      "text": "bsc computer science"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing that. Just to confirm, are you planning to take admission in B Tech this year or looking for information related to B Sc Computer Science?"
+    },
+    {
+      "speaker": "user",
+      "text": "no madam"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen edu dot in. All the best. Goodbye."
+    }
+  ]
+}

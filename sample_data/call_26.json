@@ -1,0 +1,273 @@
+{
+  "call_id": "75b967ee-ca2f-455b-9ae0-70f5a45784c6",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Sharvesh G?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "So Sharvesh G, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes आपका"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "computer science course"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. मैं थोड़ा और better समझना चाहती हूँ, आपकी Class 11 percentage कितनी आई थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "can you please talk in english"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure, no problem. Could you please tell me your Class 11 percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "it will be around seventy eight percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. What's your expected twelfth grade percentage?"
+    },
+    {
+      "speaker": "user",
+      "text": "above eighty six"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And have you appeared for JEE Mains?"
+    },
+    {
+      "speaker": "user",
+      "text": "what gene"
+    },
+    {
+      "speaker": "agent",
+      "text": "JEE Mains is the Joint Entrance Examination for engineering co"
+    },
+    {
+      "speaker": "user",
+      "text": "no"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted."
+    },
+    {
+      "speaker": "user",
+      "text": "no not yet"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just so you know, we accept a range of scores including V I T triple E, State Common Entrance Test and C U E T. We also conduct our own entrance test, the Woxsen Joint Engineering Entrance Test, or W JEET. And the great pa rt is if you've appeared for more than one entrance exam, we take your two best scores into consideration which will work"
+    },
+    {
+      "speaker": "user",
+      "text": "when i can write that"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET"
+    },
+    {
+      "speaker": "user",
+      "text": "w g exam"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET, Woxsen Joint Engineering Entrance Test, is an online exam with one hundred multiple choice questions and lasts one hour ten minutes. If you'd like, I can share more details about the exam schedule or application process. Would you like that?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i would really like to know about the exam schedule"
+    },
+    {
+      "speaker": "user",
+      "text": "when can i write the exam actually"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET exam dates are usually announced on the official website as the admission deadlines approach. Since admissions are closing soon, I recommend applying early to get the exact exam schedule and slot. Would you"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i'm i'm looking to join your currently i'm twelfth and looking to join in the next academic year so"
+    },
+    {
+      "speaker": "user",
+      "text": "should i have to write the exam this year or the next year"
+    },
+    {
+      "speaker": "agent",
+      "text": "Since you are currently in twelfth grade and planning for the next academic year, you can appear for the W JEET exam this year as part of the admission process. This will help you complete your application on time. Would you l"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah yeah absolutely"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to send you our brochure to know more about Woxsen University and its residential campus?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes you can send me"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University offers a four- year B Tech program with specializations in Computer Science, AI & Machine Learning, Data Science, Blockchain & Cybersecurity, and Electronics & Communication Engineering. The campus is fully resid"
+    },
+    {
+      "speaker": "user",
+      "text": "where is it is it in बैंगलोर or is it in हैदराबाद"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University is located in हैदराबाद, spread across two hundred acres with a fully residential"
+    },
+    {
+      "speaker": "user",
+      "text": "what is the neft neft ranking"
+    },
+    {
+      "speaker": "agent",
+      "text": "Currently, Woxsen University does not have a Nack ranking yet, but it holds a number twelve rank in India among the top one hundred sixty private engineering institutes according to Outlook I-Care Rankings for twenty twenty five. Would you like to know about placements or scholarships?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i would like to know about the placement"
+    },
+    {
+      "speaker": "agent",
+      "text": "For the twenty twenty six B Tech placements so far, the highest package is eighteen LPA. The overall average package is nine point two LPA, and the top twenty percent average is twelve point two LPA. Top recruiters include Tech Mahind"
+    },
+    {
+      "speaker": "user",
+      "text": "ok how many how many seats"
+    },
+    {
+      "speaker": "user",
+      "text": "how many seats that boston university have"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't have the exact number of seats available for B Tech programs at Woxsen University at this moment. If you want, I can have a senior counsellor get in touch with you with detailed information. Meanwhile, is there anything else you would like to know?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah i really like like to know about the exam how it will be scheduled or"
+    },
+    {
+      "speaker": "user",
+      "text": "is it live right now"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET exam is an online test with one hundred multiple choice questions and a duration of one hour ten minutes. It is conducted on scheduled dates announced by the university. It is not a live exam you can take anytime;"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah what is the cutoff what will be the cutoff for the exam"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET cutoff is typically around one hundred twenty marks and above out of two hundred. This"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah can can you please repeat it"
+    },
+    {
+      "speaker": "agent",
+      "text": "The W JEET cutoff is around one hundred twenty marks and above out of two hundred. Would you like to know about the application process next?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can apply through the official Woxsen University website by filling out the online application form and submitting the required documents. The application fee is two thousand eighty Rupees. After that, you can submit your entrance exam scores and attend a personal interview as part of the admission process. Would you like information on anything else?"
+    },
+    {
+      "speaker": "user",
+      "text": "so if ok"
+    },
+    {
+      "speaker": "user",
+      "text": "ok if i write wrote the exam before board exam"
+    },
+    {
+      "speaker": "user",
+      "text": "and got selected"
+    },
+    {
+      "speaker": "user",
+      "text": "they need my board mark also or they don't need my board marks"
+    },
+    {
+      "speaker": "agent",
+      "text": "For admission, you need to have a minimum of fifty-five percent aggregate in your Class twelve board exams with Physics, Chemistry, and Mathematics as mandatory subjects. Even if you clear the entrance exam and get selected, your board marks are required to confirm eligibility. Would you like to know more about the eligibility criteria?"
+    },
+    {
+      "speaker": "user",
+      "text": "yeah"
+    },
+    {
+      "speaker": "agent",
+      "text": "Candidates must have completed ten plus two with Physics, Chemistry, and Mathematics with a minimum of fifty- five percent aggregate to be eligible for the B Tech program at Woxsen University. This applies to all accepted boards including"
+    },
+    {
+      "speaker": "user",
+      "text": "this waxon this waxon university is famous"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University is ranked number twelve in India among the top one hundred sixty private engineering institutes according to Outlook I- Care Ranki"
+    },
+    {
+      "speaker": "user",
+      "text": "what is wax and university is better"
+    },
+    {
+      "speaker": "user",
+      "text": "is waxen university is better than vat"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't have specific comparison data between Woxsen University and V A T. However, Woxsen is ranked number twelve among private engineering institutes in India and offers strong industry-aligned programs with good placement records. A senior counsellor can help you with a detailed comparison if you like. Would you like me to arrange that?"
+    },
+    {
+      "speaker": "user",
+      "text": "no no"
+    },
+    {
+      "speaker": "agent",
+      "text": "It was a pleasure speaking with you. Deadline से पहले apply करना मत भूलिएगा। आपका दिन शानदार हो! All the best."
+    },
+    {
+      "speaker": "user",
+      "text": "thank you thank you"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye!"
+    }
+  ]
+}

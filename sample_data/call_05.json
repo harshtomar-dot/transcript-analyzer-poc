@@ -1,0 +1,93 @@
+{
+  "call_id": "6bf52fa5-8744-4add-b2c6-4ff6bb1973ac",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Yuvraj Saran?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yuvraj Saran, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can only speak in English and Hindi. So, which stream are you interested in for B Tech at Woxsen University?"
+    },
+    {
+      "speaker": "user",
+      "text": "i am class ninth"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright."
+    },
+    {
+      "speaker": "user",
+      "text": "read in class ninth"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing. Since you are currently in Class Nine, the B Tech admissions will be for a future year after you complete your Class Twelve. If you want, I can share some information now or call you back when you are closer to applying. How would you like to proceed?"
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries. I can send the details across on WhatsApp, or if you'd prefer, I can call you back at a better time, whichever works for you."
+    },
+    {
+      "speaker": "user",
+      "text": "पर अभी"
+    },
+    {
+      "speaker": "agent",
+      "text": "कोई बात नहीं।"
+    },
+    {
+      "speaker": "user",
+      "text": "पर अभी मैं"
+    },
+    {
+      "speaker": "user",
+      "text": "चार साल से class twelfth में आऊंगा"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। तो आप अभी Class Nine में हैं और चार साल बाद Class Twelve में पहुंचेंगे। क्या आप अभी कुछ और जानकारी लेना चाहेंगे या जब आप Class Twelve के करीब होंगे तब बात करना पसंद करेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "class को end किया क़रीब होंगे तब"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है, जब आप Class Twelve के करीब होंगे तब हम आपसे संपर्क करेंगे। तब तक अगर आपको कोई सवाल हो तो आप हमें बता सकते हैं। धन्यवाद। Thank you, and have a great day."
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye!"
+    }
+  ]
+}

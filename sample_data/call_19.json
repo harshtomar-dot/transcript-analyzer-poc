@@ -1,0 +1,117 @@
+{
+  "call_id": "03c18fdc-21c8-43cc-aa2b-33d905af12d4",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Dimple Swami?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Dimple Swami, मैं Woxsen University से B Tech admissions में आपकी help के लिए call कर रही हूँ। क्या मैं आपसे दो मिनट बात कर सकती हूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "ज़रूर ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Dimple Swami, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "btech computer science and engineering course"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for sharing. आपकी Class 11 percentage कितनी आई थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "seventy eight percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "ninety percent"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. क्या आपने JEE Mains attempt किया है?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं ok मैं अभी साठ"
+    },
+    {
+      "speaker": "user",
+      "text": "attempt करने वाली हूं december में"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, हम V I T triple E, State Common Entrance Test, C U E T scores भी accept करते हैं। साथ ही हमारा अपना entrance test भी है, Woxsen Joint Engineering Entrance Test, यानी W JEET। और सबसे अच्छी बात यह है कि अगर आपने एक से ज़्यादा exams attempt किए हैं, तो हम आपके best two scores consider करते हैं, जो आपके लिए advantage होगा। तो क्या आप हमारा entrance exam, W JEET, भी attempt करना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "सोचकर बताएंगे"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या आप चाहेंगे कि मैं आपको हमारा brochure भेज दूँ, ताकि आप Woxsen University और उसके residential campus के बारे में और जान सकें?"
+    },
+    {
+      "speaker": "user",
+      "text": "ज़रूर"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University का B Tech program चार साल का है, जिसमें practical learning और industry exposure पर खास ध्यान दिया जाता है। हमारा campus हैदराबाद में है, जहाँ fully furnished hostels, advanced labs जैसे AI Lab, Robotics Lab, और एक बड़ी library उपलब्ध हैं। क्या आप जानना चाहेंगे कि फीस स्ट्रक्चर कैसा है?"
+    },
+    {
+      "speaker": "user",
+      "text": "वह हम देख चुके हैं"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या आप Woxsen University में scholarships के बारे में जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "वह भी idea है"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है। क्या आप Woxsen University के placement opportunities के बारे में कुछ जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Two Thousand Twenty Six के placements में highest package eighteen LPA रहा है। Overall average package nine point two LPA है, और top twenty percent average twelve point two LPA है। Top recruiters में Tech Mahindra, JTP Japan, KPMG, Virtusa, Centific, और ARIQT International शामिल हैं। क्या आप और कुछ जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं अभी के लिए इतना बहुत है"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपसे बात करके बहुत अच्छा लगा। Deadline से पहले apply करना मत भूलिएगा। आपका दिन शानदार हो! All the best. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "bebc0967-e6cc-460b-b0cf-58cd06884b78",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Srimanto Paramanik?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "आप कौन बोल रहे हैं"
+    },
+    {
+      "speaker": "agent",
+      "text": "मैं आपकी Program Advisor हूँ Woxsen University से। मैं B Tech admissions के बारे में आपकी मदद के लिए call कर रही हूँ। क्या मैं आपसे दो मिनट बात कर सकती हूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "बताइए"
+    },
+    {
+      "speaker": "agent",
+      "text": "Srimanto Paramanik, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं नहीं अब गलती से touch हो गया phone पर"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen edu dot in All the best. Goodbye."
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye."
+    }
+  ]
+}

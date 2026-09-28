@@ -1,0 +1,49 @@
+{
+  "call_id": "709aa456-6642-45d3-ad92-4988fa811a5f",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Ninganagouda Madarakal?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am actually i am applying for"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's good to know. So, Ninganagouda Madarakal, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am no no i am studying now in btech ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for letting me know. Just to confirm, are you currently enrolled in a B Tech program?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Are you interested in exploring any further studies or specializations at Woxsen University after your current B Tech?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am no"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen dot edu dot in. All the best. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "call_id": "43d6a302-3d32-40f6-b14d-f88de84b18e3",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Md Rakib?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी"
+    },
+    {
+      "speaker": "agent",
+      "text": "Md Rakib, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "electronic"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright. मैं थोड़ा और better समझना चाहती हूँ, आपकी Class 11 percentage कितनी आई थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां percentage"
+    },
+    {
+      "speaker": "agent",
+      "text": "कृपया अपनी Class 11 की percentage बताएं ताकि मैं आपकी जानकारी सही से ले सकूँ।"
+    },
+    {
+      "speaker": "user",
+      "text": "fifty"
+    },
+    {
+      "speaker": "agent",
+      "text": "Md Rakib, आपकी Class 11 की percentage fifty percent है, ठीक है? अब आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी वही same है"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for sharing that. And क्या आपने JEE Mains attempt किया है?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं"
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Just so you know, हम V I T triple E, state common entrance test, C U E T scores भी accept करते हैं। साथ ही हमारा अपना entrance test भी है, Woxsen Joint Engineering Entrance Test, यानी W JEET। और सबसे अच्छी बात यह है कि अगर आपने एक से ज़्यादा exams attempt किए हैं, तो हम आपके best two scores consider करते हैं, जो आपके लिए advantage होगा। तो क्या आप हमारा entrance exam, W JEET, भी attempt करना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "ma'am इसका ख़र्चा क्या आएगी पहले यह बताइए"
+    },
+    {
+      "speaker": "agent",
+      "text": "Total four years का fees Rupees Twenty Eight Lacks Eighty Five Thousand है, जिसमें Academic fees Rupees Sixteen Lacks Twenty Five Thousand और Food और Hostel Fees Rupees Twelve Lacks Sixty Thousand शामिल हैं। इसका average per year fees Rupees Seven Lacks Twenty One Thousand होता है। आपकी profile के आधार पर, आपको tuition fee पर upto fifty percent तक Merit Scholarship भी मिल सकती है। क्या आप जानना चाहेंगे कि फीस के अलावा हॉस्टल की सुविधाएं कैसी हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "जी नहीं मैं घर पर बात करके उसके बाद मैं फिर बताऊंगा"
+    },
+    {
+      "speaker": "agent",
+      "text": "कोई बात नहीं। आप घर पर बात करके बाद में बताइएगा। Thank you, आपका दिन अच्छा हो। Goodbye."
+    }
+  ]
+}

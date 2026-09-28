@@ -1,0 +1,81 @@
+{
+  "call_id": "5e34b075-9f27-4269-bb81-4f9d1ad28c82",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Satyam Neel?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes sure"
+    },
+    {
+      "speaker": "agent",
+      "text": "Satyam Neel, are you planning for B Tech admissions this year?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am actually i had admission for btech but"
+    },
+    {
+      "speaker": "user",
+      "text": "suddenly i get a email"
+    },
+    {
+      "speaker": "user",
+      "text": "for a scholarship"
+    },
+    {
+      "speaker": "agent",
+      "text": "I"
+    },
+    {
+      "speaker": "user",
+      "text": "so i think"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Just to"
+    },
+    {
+      "speaker": "user",
+      "text": "so i think that"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand you received an email about a scholarship. May I know if you are still interested in exploring B Tech admission options at Woxsen University, or would you like me to assist you with information about the scholarship?"
+    },
+    {
+      "speaker": "user",
+      "text": "so i had taken admission in b tech so in your in your university can"
+    },
+    {
+      "speaker": "agent",
+      "text": "To clarify, have you already taken admission in a B Tech program at another university? If yes, are you interested in transferring or learning about admission options at Woxsen University?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for clarifying. Are you currently interested in planning for B Tech admissions this year at Woxsen University?"
+    },
+    {
+      "speaker": "user",
+      "text": "no ma'am sorry"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, thank you for your time today. If you'd like to explore the program further, please feel free to visit www dot woxsen edu dot in All the best. Goodbye."
+    }
+  ]
+}

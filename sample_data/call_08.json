@@ -1,0 +1,61 @@
+{
+  "call_id": "ed809ba6-870e-4b10-9b06-f380d61a8432",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Kuldeep Kumar?"
+    },
+    {
+      "speaker": "user",
+      "text": "hello"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, I'm calling from Woxsen University to help you with B Tech admissions. May I take two minutes of your time?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां बोलो"
+    },
+    {
+      "speaker": "agent",
+      "text": "Kuldeep Kumar, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां निकल रहे"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं नहीं"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं वह तो"
+    },
+    {
+      "speaker": "agent",
+      "text": "Kuldeep Kumar, क्या आप B Tech के लिए किसी और stream में interested हैं या अभी undecided हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "दस दिन में आप कल जाओगे दस दिन बाहर तो देखा होगा तो"
+    },
+    {
+      "speaker": "agent",
+      "text": "माफ़ कीजिए, मैं आपकी बात ठीक से समझ नहीं पाई। क्या आप कृपया साफ़ बता सकते हैं कि आप B Tech admissions के लिए interested हैं या नहीं?"
+    }
+  ]
+}

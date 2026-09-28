@@ -1,0 +1,173 @@
+{
+  "call_id": "bb5672e5-e494-4f14-886b-ff2a4a25672e",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "Hi, I am Zara, Am I Talking to Mansingh Berwa?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां जी"
+    },
+    {
+      "speaker": "agent",
+      "text": "मैं Woxsen University से B Tech admissions में आपकी help के लिए call कर रही हूँ। क्या मैं आपसे दो मिनट बात कर सकती हूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "ok"
+    },
+    {
+      "speaker": "agent",
+      "text": "Mansingh Berwa, क्या आप इस year B Tech admissions की planning कर रहे हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "यह सुनकर अच्छा लगा। Woxsen में B Tech programs जैसे CSE, CSE in Data Science, CSE in A I and M L, CSE in Blockchain, IoT & Cybersecurity available हैं। इसके अलावा B Tech in E C E Electronics and Communications Engineering भी है। आप किस stream में interested हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "mobile के"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपका मतलब है कि आप मोबाइल एप्लिकेशन या मोबाइल टेक्नोलॉजी से जुड़ा कोई stream चाहते हैं? Woxsen University में ऐसा कोई specific mobile technology stream नहीं है, लेकिन Computer Science Engineering के अंदर AI, Data Science, और Blockchain जैसे modern technology streams हैं जो मोबाइल एप्लिकेशन और तकनीक से संबंधित हो सकते हैं। क्या आप इनमें से कोई stream चुनना चाहेंगे या आप undecided हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "online वैसे चलने जाएंगे"
+    },
+    {
+      "speaker": "agent",
+      "text": "Woxsen University का B Tech program पूरी तरह residential है, मतलब classes ऑनलाइन नहीं होतीं। Admission process ऑनलाइन होता है, लेकिन पढ़ाई और campus life पूरी तरह on-campus होती है। क्या आप इस residential program के बारे में और जानना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है। मैं थोड़ा और better समझना चाहती हूँ, आपकी Class 11 percentage कितनी आई थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "मतलब eleventh"
+    },
+    {
+      "speaker": "agent",
+      "text": "जी हाँ, Class 11 की percentage पूछ रही हूँ ताकि आपकी academic background समझ सकूँ। आपकी Class 11 की percentage क्या थी?"
+    },
+    {
+      "speaker": "user",
+      "text": "eleventh मेरी"
+    },
+    {
+      "speaker": "agent",
+      "text": "कृपया अपनी Class 11 की percentage बताएं ताकि मैं आगे की जानकारी ले सकूँ।"
+    },
+    {
+      "speaker": "user",
+      "text": "साठ साठ"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपकी Class 11 की percentage साठ प्रतिशत है, सही समझा? अब आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "twelfth"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपकी expected twelfth percentage कितनी होगी?"
+    },
+    {
+      "speaker": "user",
+      "text": "पचास"
+    },
+    {
+      "speaker": "agent",
+      "text": "आपकी expected twelfth percentage पचास प्रतिशत है, सही है? क्या आपने JEE Mains attempt किया है?"
+    },
+    {
+      "speaker": "user",
+      "text": "नहीं नहीं"
+    },
+    {
+      "speaker": "agent",
+      "text": "समझ गई। क्या आप हमारा entrance exam, W JEET, भी attempt करना चाहेंगे?"
+    },
+    {
+      "speaker": "agent",
+      "text": "नमस्ते, क्या आप अभी भी लाइन पर हैं?"
+    },
+    {
+      "speaker": "user",
+      "text": "line पर हूं"
+    },
+    {
+      "speaker": "agent",
+      "text": "ठीक है, आप अभी व्यस्त हैं। मैं WhatsApp पर details भेज सकती हूँ, या अगर आप चाहें तो मैं आपको किसी convenient time पर वापस call कर सकती हूँ, जो भी आपके लिए सही हो वो बताइए।"
+    },
+    {
+      "speaker": "user",
+      "text": "ठीक है"
+    },
+    {
+      "speaker": "agent",
+      "text": "क्या आप मुझे बताना चाहेंगे कि आपको कब कॉल करना सही रहेगा?"
+    },
+    {
+      "speaker": "user",
+      "text": "हां"
+    },
+    {
+      "speaker": "agent",
+      "text": "कृपया मुझे suitable time बताएं जब मैं आपको कॉल कर सकूँ।"
+    },
+    {
+      "speaker": "user",
+      "text": "अच्छा"
+    },
+    {
+      "speaker": "agent",
+      "text": "क्या आप कृपया specific समय बताना चाहेंगे जब मैं आपको कॉल कर सकूँ?"
+    },
+    {
+      "speaker": "user",
+      "text": "ग्यारह का eight eight में"
+    },
+    {
+      "speaker": "agent",
+      "text": "Got it, so we will call you back at eleven eighty eight. Could you please confirm if you meant eleven AM or PM?"
+    },
+    {
+      "speaker": "user",
+      "text": "mhmm अच्छा"
+    },
+    {
+      "speaker": "agent",
+      "text": "कृपया बताएं, क्या आप ग्यारह बजे सुबह (AM) या ग्यारह बजे रात (PM) कॉल करना चाहेंगे?"
+    },
+    {
+      "speaker": "user",
+      "text": "ग्यारह बजे कर लेंगे"
+    },
+    {
+      "speaker": "agent",
+      "text": "Got it, so we will call you back at eleven AM. Thank you, and have a great day. Goodbye."
+    },
+    {
+      "speaker": "user",
+      "text": "हां goodbye"
+    },
+    {
+      "speaker": "agent",
+      "text": "Goodbye!"
+    }
+  ]
+}
