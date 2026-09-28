@@ -1,5 +1,6 @@
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from typing import Optional
 
 from openai import OpenAI
@@ -7,6 +8,7 @@ from openai import OpenAI
 CHAT_MODEL = os.environ.get("TRANSCRIPT_POC_MODEL", "gpt-4.1-mini")
 EMBED_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 25
+MAX_CONCURRENCY = int(os.environ.get("TRANSCRIPT_POC_CONCURRENCY", "20"))
 
 _client: Optional[OpenAI] = None
 
@@ -41,6 +43,18 @@ def _chunk(items: list, size: int):
         yield items[i : i + size]
 
 
+def _run_concurrent(items: list, fn) -> list:
+    """Run fn(item) for each item, up to MAX_CONCURRENCY in parallel, preserving order."""
+    if len(items) <= 1:
+        return [fn(item) for item in items]
+    results = [None] * len(items)
+    with ThreadPoolExecutor(max_workers=min(MAX_CONCURRENCY, len(items))) as executor:
+        futures = {executor.submit(fn, item): i for i, item in enumerate(items)}
+        for future, i in futures.items():
+            results[i] = future.result()
+    return results
+
+
 def _reference_block(agent_context: Optional[str]) -> str:
     if not agent_context:
         return ""
@@ -57,7 +71,6 @@ def classify_turns(turns_with_context: list, categories: list, agent_context: Op
     category_names = [c["name"] for c in categories]
     category_block = "\n".join(f"- {c['name']}: {c['description']}" for c in categories)
     client = get_client()
-    results: dict = {}
 
     schema = {
         "type": "json_schema",
@@ -87,7 +100,7 @@ def classify_turns(turns_with_context: list, categories: list, agent_context: Op
         },
     }
 
-    for batch in _chunk(turns_with_context, BATCH_SIZE):
+    def classify_batch(batch):
         items_block = []
         for turn, context in batch:
             ctx = f"  Preceding context:\n    {context}\n" if context else ""
@@ -104,8 +117,12 @@ def classify_turns(turns_with_context: list, categories: list, agent_context: Op
             messages=[{"role": "user", "content": prompt}],
             response_format=schema,
         )
-        parsed = json.loads(resp.choices[0].message.content)
-        for r in parsed["results"]:
+        return json.loads(resp.choices[0].message.content)["results"]
+
+    batches = list(_chunk(turns_with_context, BATCH_SIZE))
+    results: dict = {}
+    for batch_results in _run_concurrent(batches, classify_batch):
+        for r in batch_results:
             results[r["id"]] = {"category": r["category"], "reason": r["reason"]}
 
     return results
@@ -164,10 +181,15 @@ def embed_texts(texts: list) -> list:
     if not texts:
         return []
     client = get_client()
-    vectors: list = []
-    for batch in _chunk(texts, 100):
+
+    def embed_batch(batch):
         resp = client.embeddings.create(model=EMBED_MODEL, input=batch)
-        vectors.extend([d.embedding for d in resp.data])
+        return [d.embedding for d in resp.data]
+
+    batches = list(_chunk(texts, 100))
+    vectors: list = []
+    for batch_vectors in _run_concurrent(batches, embed_batch):
+        vectors.extend(batch_vectors)
     return vectors
 
 
