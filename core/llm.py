@@ -8,7 +8,13 @@ from openai import OpenAI
 CHAT_MODEL = os.environ.get("TRANSCRIPT_POC_MODEL", "gpt-4.1-mini")
 EMBED_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 25
+CALL_BATCH_SIZE = 8
 MAX_CONCURRENCY = int(os.environ.get("TRANSCRIPT_POC_CONCURRENCY", "20"))
+
+UNCLASSIFIED_CATEGORY = {
+    "name": "Unclassified",
+    "description": "Doesn't clearly match any of the other defined categories. Use this rather than forcing a weak or partial fit.",
+}
 
 _client: Optional[OpenAI] = None
 
@@ -126,6 +132,127 @@ def classify_turns(turns_with_context: list, categories: list, agent_context: Op
             results[r["id"]] = {"category": r["category"], "reason": r["reason"]}
 
     return results
+
+
+def _call_transcript_block(call, max_chars: int = 6000) -> str:
+    text = "\n".join(f"{t.speaker}: {t.text}" for t in call.turns)
+    if len(text) > max_chars:
+        text = text[:max_chars] + "\n...[truncated]"
+    return text
+
+
+def classify_calls(calls: list, categories: list, agent_context: Optional[str] = None) -> dict:
+    """Whole-call root-cause classification. categories: list of {name, description} — an
+    'Unclassified' catch-all is added automatically. Returns {call_id: {category, reason}}.
+    """
+    effective_categories = list(categories) + [UNCLASSIFIED_CATEGORY]
+    category_names = [c["name"] for c in effective_categories]
+    category_block = "\n".join(f"- {c['name']}: {c['description']}" for c in effective_categories)
+    client = get_client()
+
+    schema = {
+        "type": "json_schema",
+        "json_schema": {
+            "name": "call_classifications",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "results": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "call_id": {"type": "string"},
+                                "category": {"type": "string", "enum": category_names},
+                                "reason": {"type": "string"},
+                            },
+                            "required": ["call_id", "category", "reason"],
+                            "additionalProperties": False,
+                        },
+                    }
+                },
+                "required": ["results"],
+                "additionalProperties": False,
+            },
+            "strict": True,
+        },
+    }
+
+    def classify_batch(batch):
+        items_block = [f"[{call.call_id}]\n{_call_transcript_block(call)}" for call in batch]
+        prompt = (
+            "You are performing root-cause analysis on voice-agent call transcripts. Assign each "
+            "call below to exactly one category.\n\n"
+            f"Categories:\n{category_block}\n"
+            f"{_reference_block(agent_context)}\n"
+            "Strongly prefer an existing, specific category when it genuinely applies. Only use "
+            "'Unclassified' when the call truly doesn't match any defined category — never force "
+            "a weak or partial fit into the wrong bucket.\n\n" + "\n\n".join(items_block)
+        )
+        resp = client.chat.completions.create(
+            model=CHAT_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            response_format=schema,
+        )
+        return json.loads(resp.choices[0].message.content)["results"]
+
+    batches = list(_chunk(calls, CALL_BATCH_SIZE))
+    results: dict = {}
+    for batch_results in _run_concurrent(batches, classify_batch):
+        for r in batch_results:
+            results[r["call_id"]] = {"category": r["category"], "reason": r["reason"]}
+
+    return results
+
+
+def propose_categories_from_calls(calls: list, num_categories: int = 4, agent_context: Optional[str] = None) -> list:
+    """calls: list of Call. Returns list of {name, description}. No catch-all — the caller adds
+    'Unclassified' separately at classify time via classify_calls."""
+    client = get_client()
+    blocks = [f"### Call {call.call_id}\n{_call_transcript_block(call, max_chars=3000)}" for call in calls[:60]]
+    prompt = (
+        "You are analyzing a set of voice-agent call transcripts to find root-cause issue "
+        f"categories. Propose up to {num_categories} specific, mutually exclusive categories "
+        "describing what went wrong (or notably happened) in these calls — e.g. a type of "
+        "factual error, a process failure, a user complaint pattern. Each category needs a short "
+        "plain name and a one-sentence behavioral description a labeler could apply consistently. "
+        "Do not include a catch-all/'other' category — that's handled separately."
+        f"{_reference_block(agent_context)}\n"
+        "Calls:\n" + "\n\n".join(blocks)
+    )
+    schema = {
+        "type": "json_schema",
+        "json_schema": {
+            "name": "proposed_call_categories",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {"type": "string"},
+                                "description": {"type": "string"},
+                            },
+                            "required": ["name", "description"],
+                            "additionalProperties": False,
+                        },
+                    }
+                },
+                "required": ["categories"],
+                "additionalProperties": False,
+            },
+            "strict": True,
+        },
+    }
+    resp = client.chat.completions.create(
+        model=CHAT_MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        response_format=schema,
+    )
+    parsed = json.loads(resp.choices[0].message.content)
+    return parsed["categories"]
 
 
 def propose_categories(sample_turns: list, num_categories: int = 6, agent_context: Optional[str] = None) -> list:

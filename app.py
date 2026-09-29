@@ -1,5 +1,6 @@
 import hashlib
 import os
+import random
 from pathlib import Path
 
 import numpy as np
@@ -10,7 +11,14 @@ from dotenv import load_dotenv
 load_dotenv()  # walks up parent directories too, picks up repo-root .env if present
 
 from core.filters import filter_calls
-from core.llm import answer_open_question, classify_turns, embed_texts, propose_categories
+from core.llm import (
+    answer_open_question,
+    classify_calls,
+    classify_turns,
+    embed_texts,
+    propose_categories,
+    propose_categories_from_calls,
+)
 from core.models import Call
 from core.parsing import parse_json_call, parse_text_call, parse_uploaded_bytes
 
@@ -69,6 +77,11 @@ def init_state():
     st.session_state.setdefault(
         "agent_context", AGENT_PROMPT_PATH.read_text() if AGENT_PROMPT_PATH.exists() else ""
     )
+    st.session_state.setdefault("rca_taxonomy", [])
+    st.session_state.setdefault("rca_proposed", [])
+    st.session_state.setdefault("rca_history", [])
+    st.session_state.setdefault("rca_last_run", None)
+    st.session_state.setdefault("rca_last_sample", [])
     if not st.session_state["calls"] and not st.session_state.get("_auto_loaded"):
         load_samples()
         st.session_state["_auto_loaded"] = True
@@ -428,6 +441,181 @@ def tab_open_ended(calls: list):
         st.markdown(answer)
 
 
+def _merge_categories(existing: list, new: list):
+    merged = list(existing)
+    existing_names = {c["name"].strip().lower() for c in merged if c.get("name")}
+    added = 0
+    for c in new:
+        name = (c.get("name") or "").strip()
+        if not name or name.lower() in existing_names:
+            continue
+        merged.append({"name": name, "description": c.get("description", "")})
+        existing_names.add(name.lower())
+        added += 1
+    return merged, added
+
+
+def _render_rca_proposed_editor():
+    proposed = st.session_state.get("rca_proposed")
+    if not proposed:
+        return
+    st.markdown("**Pending proposed categories** — edit, then add to the master taxonomy:")
+    edited = st.data_editor(
+        pd.DataFrame(proposed), num_rows="dynamic", use_container_width=True, key="rca_proposed_editor"
+    )
+    st.session_state["rca_proposed"] = edited.dropna(subset=["name"]).to_dict("records")
+    if st.button("Add to master taxonomy", key="rca_merge_proposed"):
+        merged, added = _merge_categories(st.session_state["rca_taxonomy"], st.session_state["rca_proposed"])
+        st.session_state["rca_taxonomy"] = merged
+        st.session_state["rca_proposed"] = []
+        st.success(f"Added {added} new categor{'y' if added == 1 else 'ies'} to the master taxonomy.")
+        st.rerun()
+
+
+def tab_rca(calls: list):
+    st.subheader("RCA / Coverage")
+    st.caption(
+        "Discover root-cause categories from a small sample, confirm them, then test coverage on "
+        "a bigger set. Calls that don't fit any known category stay 'Unclassified' — mine those "
+        "to discover new categories, and repeat as your sample grows (10 → 100 → 1000 ...)."
+    )
+    max_n = len(calls)
+
+    st.markdown("#### Master taxonomy")
+    taxonomy = st.session_state["rca_taxonomy"]
+    if taxonomy:
+        edited = st.data_editor(
+            pd.DataFrame(taxonomy), num_rows="dynamic", use_container_width=True, key="rca_taxonomy_editor"
+        )
+        st.session_state["rca_taxonomy"] = edited.dropna(subset=["name"]).to_dict("records")
+    else:
+        st.caption("No categories yet — discover some from a sample in step 1 below.")
+    st.caption("'Unclassified' is added automatically at classification time — no need to add it yourself.")
+
+    if st.button("Reset RCA taxonomy & history", key="rca_reset"):
+        st.session_state["rca_taxonomy"] = []
+        st.session_state["rca_proposed"] = []
+        st.session_state["rca_history"] = []
+        st.session_state["rca_last_run"] = None
+        st.session_state["rca_last_sample"] = []
+        st.rerun()
+
+    _render_rca_proposed_editor()
+
+    st.divider()
+    st.markdown("#### 1. Discover categories from a sample")
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        discover_n = st.number_input(
+            "Sample size", min_value=1, max_value=max_n, value=min(10, max_n), key="rca_discover_n"
+        )
+    with col2:
+        discover_mode = st.radio("Sampling", ["First N", "Random N"], horizontal=True, key="rca_discover_mode")
+
+    if st.button("Propose categories from this sample", key="rca_propose_sample"):
+        sample = calls[:discover_n] if discover_mode == "First N" else random.sample(calls, discover_n)
+        with st.spinner(f"Proposing categories from {len(sample)} call(s)..."):
+            try:
+                proposed = propose_categories_from_calls(sample, agent_context=st.session_state.get("agent_context"))
+            except RuntimeError as e:
+                st.error(str(e))
+                return
+        st.session_state["rca_proposed"] = proposed
+        st.rerun()
+
+    st.divider()
+    st.markdown("#### 2. Test coverage on a larger set")
+    if not st.session_state["rca_taxonomy"]:
+        st.info("Add at least one category to the master taxonomy first (via step 1 above).")
+    else:
+        col3, col4 = st.columns([1, 1])
+        with col3:
+            test_n = st.number_input("Test size (ignored if sampling 'All in scope')", min_value=1, max_value=max_n, value=max_n, key="rca_test_n")
+        with col4:
+            test_mode = st.radio("Sampling", ["First N", "Random N", "All in scope"], horizontal=True, key="rca_test_mode")
+
+        if st.button("Classify against master taxonomy", key="rca_classify"):
+            if test_mode == "All in scope":
+                test_sample = calls
+            elif test_mode == "First N":
+                test_sample = calls[:test_n]
+            else:
+                test_sample = random.sample(calls, test_n)
+
+            with st.spinner(
+                f"Classifying {len(test_sample)} call(s) against {len(st.session_state['rca_taxonomy'])} categor"
+                f"{'y' if len(st.session_state['rca_taxonomy']) == 1 else 'ies'}..."
+            ):
+                try:
+                    results = classify_calls(
+                        test_sample, st.session_state["rca_taxonomy"], agent_context=st.session_state.get("agent_context")
+                    )
+                except RuntimeError as e:
+                    st.error(str(e))
+                    return
+
+            st.session_state["rca_last_run"] = results
+            st.session_state["rca_last_sample"] = test_sample
+            n_unclassified = sum(1 for r in results.values() if r["category"] == "Unclassified")
+            coverage_pct = round(100 * (len(results) - n_unclassified) / len(results), 1) if results else 0.0
+            st.session_state["rca_history"].append(
+                {
+                    "round": len(st.session_state["rca_history"]) + 1,
+                    "calls_tested": len(test_sample),
+                    "categories": len(st.session_state["rca_taxonomy"]),
+                    "coverage_pct": coverage_pct,
+                    "unclassified": n_unclassified,
+                }
+            )
+
+        last_run = st.session_state.get("rca_last_run")
+        if last_run:
+            rows = [{"call_id": cid, "category": r["category"], "reason": r["reason"]} for cid, r in last_run.items()]
+            df = pd.DataFrame(rows)
+            counts = df["category"].value_counts()
+            n_unclassified = int(counts.get("Unclassified", 0))
+            coverage_pct = round(100 * (len(df) - n_unclassified) / len(df), 1) if len(df) else 0.0
+
+            m1, m2, m3 = st.columns(3)
+            m1.metric("Calls tested", len(df))
+            m2.metric("Coverage", f"{coverage_pct}%")
+            m3.metric("Unclassified", n_unclassified)
+
+            col_a, col_b = st.columns([1, 2])
+            with col_a:
+                st.bar_chart(counts)
+            with col_b:
+                st.dataframe(df, use_container_width=True, height=320)
+
+        if st.session_state["rca_history"]:
+            st.markdown("**Round history**")
+            hist_df = pd.DataFrame(st.session_state["rca_history"])
+            st.dataframe(hist_df, use_container_width=True, height=min(240, 40 + 32 * len(hist_df)))
+
+    st.divider()
+    st.markdown("#### 3. Discover new categories from the Unclassified calls")
+    last_run = st.session_state.get("rca_last_run")
+    last_sample = st.session_state.get("rca_last_sample", [])
+    if not last_run:
+        st.caption("Run step 2 first.")
+    else:
+        unclassified_ids = {cid for cid, r in last_run.items() if r["category"] == "Unclassified"}
+        unclassified_calls = [c for c in last_sample if c.call_id in unclassified_ids]
+        st.caption(f"{len(unclassified_calls)} call(s) are currently Unclassified from the last run.")
+        if unclassified_calls and st.button("Propose categories from Unclassified calls", key="rca_propose_leftover"):
+            with st.spinner(f"Proposing categories from {len(unclassified_calls)} unclassified call(s)..."):
+                try:
+                    proposed = propose_categories_from_calls(
+                        unclassified_calls, agent_context=st.session_state.get("agent_context")
+                    )
+                except RuntimeError as e:
+                    st.error(str(e))
+                    return
+            st.session_state["rca_proposed"] = proposed
+            st.rerun()
+        st.caption("After adding new categories to the master taxonomy above, go back to step 2 and re-run to see updated coverage.")
+
+
 def main():
     init_state()
     if not require_passcode():
@@ -447,17 +635,26 @@ def main():
     render_call_picker(filtered_calls, key="main_picker")
 
     tabs = st.tabs(
-        ["Predefined bucketing", "Auto bucketing", "Phrase search", "Similar phrase search", "Open-ended questions"]
+        [
+            "Predefined bucketing",
+            "Auto bucketing",
+            "RCA / Coverage",
+            "Phrase search",
+            "Similar phrase search",
+            "Open-ended questions",
+        ]
     )
     with tabs[0]:
         tab_predefined_bucketing(filtered_calls)
     with tabs[1]:
         tab_auto_bucketing(filtered_calls)
     with tabs[2]:
-        tab_phrase_search(filtered_calls)
+        tab_rca(filtered_calls)
     with tabs[3]:
-        tab_similar_phrase_search(filtered_calls)
+        tab_phrase_search(filtered_calls)
     with tabs[4]:
+        tab_similar_phrase_search(filtered_calls)
+    with tabs[5]:
         tab_open_ended(filtered_calls)
 
 
